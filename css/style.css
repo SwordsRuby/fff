@@ -853,6 +853,10 @@ nav a {
         max-width: 793px;
     }
 
+    .banner {
+        height: 800px;
+    }
+
     .banner_slider_wraper {
         width: 793px;
         height: 500px;
