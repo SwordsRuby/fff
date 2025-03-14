@@ -3,10 +3,10 @@ function sliderActive(translate, elem) {
     var x = window.matchMedia("(max-width: 1210px)")
     var x1 = window.matchMedia("(max-width: 800px)")
     var width = 1200;
-    if (x.matches == true) {
-        width = 793;
-    } else if (x1.matches == true) {
+    if (x1.matches == true) {
         width = 400;
+    } else if (x.matches == true) {
+        width = 793;
     } else {
         width = 1200;
     }
